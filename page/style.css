@@ -1,0 +1,79 @@
+.wrapper {
+    width: 1440px;
+    margin: 0 auto;
+    height: 87px;
+    background-color: aqua;
+}
+
+.navigation__list {
+    padding-top: 17px;
+}
+
+.a-fontsize {
+    flex-grow: 1;
+}
+
+.a-fontsize a {
+    text-decoration: none;
+    position: relative;
+    height: 31px;
+    display: inline;
+    float: left;
+    background-image: url(/assets/icons/fontsize.png);
+}
+
+.a-fontsize-small {
+    width: 20px;
+}
+
+.small {
+    margin-bottom: 0rem;
+}
+
+.a-fontsize-normal {
+    width: 26px;
+    background-position: -20px 0;
+}
+
+.a-fontsize-big {
+    width: 26px;
+    background-position: -46px 0;
+}
+
+.a-fontsize-big:hover {
+    background-position: -46px 31px;
+}
+
+.a-fontsize-normal:hover {
+    background-position: -20px 31px;
+}
+
+.a-fontsize-small:hover {
+    background-position: 0 31px;
+}
+
+.fontsize-small {
+    font-size: 20px;
+}
+
+.fontsize-normal {
+    font-size: 30px;
+}
+
+.fontsize-big {
+    font-size: 35px;
+}
+
+.fontBlue {
+    background-color: blue;
+    color: white;
+}
+
+.fontWhite {
+    background-color: rgb(60, 197, 26);
+}
+
+.fontAzure {
+    background-color: rgb(201, 79, 79);
+    color: white;
+}
